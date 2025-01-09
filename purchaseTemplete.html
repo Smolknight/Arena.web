@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placeholder</title>
+    <style>
+        .purchase{
+            display: grid;
+            grid-template-columns: 60% 40%;
+            height: 90vh;
+            width: 80%;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        
+        
+
+        #purchase-cardInfo{
+            background-color: blue;
+            padding: 10px;
+                #eventSelect{
+                    width: 70%;
+                    height: 5vh;
+                    font-size: 2rem;
+                }
+                #cardNum, #cardHold, #pinNum{
+                    width: 60%;
+                    height: 3vh;
+                    font-size: 2rem;
+                }
+                
+                #cardHoldLabel{
+                    font-size: 2.2rem;
+                }
+
+                #pinLabel{
+                    font-size: 2.2em;
+                }
+                #pinNum{
+                width: 60%;
+                }
+                #nullDateMonth, #nullDateYear{
+                    width: 30%;
+                }
+
+                label{
+                    font-size: 3rem;
+                }
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="purchase">
+        <div id="purchase-cardInfo">
+            <form>    
+                <label for="eventSelect">Select an event</label>
+                <br>
+                <select name="eventSelect" id="eventSelect" required>
+                    <option value="rockAndStone">Rock and stone</option>
+                </select>
+                <br>
+                <br>
+                
+                
+                <label id="cardNumLabel" for="cardNum">Card number</label>
+                <br>
+                <input id="cardNum" type="tel" maxlength="15" required>
+                <br>
+                <br>
+                
+                
+                <label id="cardHoldLabel" for="cardHold">Name of card holder</label>
+                <br>
+                <input id="cardHold" type="text" required>
+                <br>
+                <br>
+                
+                <span style="display: flex">
+                    <div>
+                        <label id="pinLabel" for="pinNum">PIN</label>
+                        <br>
+                        <input id="pinNum" type="tel" required>
+                    </div>
+                    <div>
+                        <label id="expireLabel" for="nullDate">expiration date</label>
+                        <br>
+                        <input id="nullDateMonth" type="tel" placeholder="MM" required>
+                        <input id="nullDateYear" type="tel" placeholder="YY" required>
+                    </div>
+                </span>
+                    
+            </form>
+            
+        </div>
+        <div id="purchase-price">
+            wefw
+        </div>
+    </div>
+</body>
+</html>
