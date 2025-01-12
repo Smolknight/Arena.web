@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -20,23 +20,19 @@
             .tickInfo{
                 background-color: #3E5879;
                 border-radius: 100px;
-                margin: 0 auto; 
+                margin: 0 auto;
                 text-align: center;
-                height: 95vh;
-
-                #sectionSelect{
+            }
+            #purchase-price{
+                #tickSelect{
+                    
+                }
+            }
+            #tickSelect{
                     width: 70%;
                     height: 5vh;
                     font-size: 1.5rem;
-                }
-                form{
-                    padding-top: 8vh;
-                }
-
-                label{
-                    font-size: 3rem;
-                }
-            }
+                } 
 
             #purchase-cardInfo{
                 background-color: #3E5879;
@@ -64,27 +60,27 @@
                     #cardHoldLabel{
                         font-size: 2.2rem;
                     }
-                    
+
                     #pinLabel{
                         font-size: 2.2em;
                     }
                     #pinNum{
-                        width: 30%;
+                    width: 30%;
                     }
                     #nullDateMonth, #nullDateYear{
                         width: 30%;
                     }
-                    
+
                     label{
                         font-size: 3rem;
                     }
                 }
-                
+
                 @media (max-width:500px){
                     .purchase{
                         display: block;
                     }   
-                    
+
                     #eventSelect{
                         width: 70%;
                         height: 5vh;
@@ -99,27 +95,28 @@
                     #cardHoldLabel{
                         font-size: 1.2rem;
                     }
-                    
+
                     #pinLabel{
                         font-size: 1.2em;
                     }
                     #pinNum{
-                        width: 30%;
+                    width: 30%;
                     }
                     #nullDateMonth, #nullDateYear{
                         width: 30%;
                     }
-                    
+
                     label{
                         font-size: 0.5rem;
                     }
                 }
-                
-                
-                </style>
+
+
+        </style>
 
     </head>
     <body class="purchaseBod">
+
         <div class="purchase">
             <div id="purchase-cardInfo">
                 <form>    
@@ -184,27 +181,16 @@
             <div id="purchase-price">
 
                 <div class="tickInfo">
-                    <form>
-                        <label for="sectionSelect">Select section</label>
-                        <br>
-                        <select name="sectionSelect" id="sectionSelect" required>
-                            <option value="" selected disabled hidden>Choose here</option>
-                            <option value="1A">1A</option>
-                            <option value="1B">1B</option>
-                            <option value="1C">1C</option>
-                            <option value="1D">1D</option>
-                        </select>
-                        <br>
-                        <br>
-                        <div style="height: 2px; background-color: black; width: 100%;"></div>
-                        <br>
-                        <div id="ticketPrice">
-                            <p style="font-size: 2rem;" id="priceDisplay">price:<span id="price"></span></p>
-                        </div>
-                    </form>
+
+                    <label for="sectionSelect">Select section</label>
+                    <select id="sectionSelect" required>
+                        <option value="1A">1A</option>
+                        <option value="1B">1B</option>
+                        <option value="1C">1C</option>
+                        <option value="1D">1D</option>
+                    </select>
                 </div>
             </div>
         </div>
-
     </body>
     </html>
