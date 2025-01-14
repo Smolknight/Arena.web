@@ -55,6 +55,10 @@ body{
     align-items: center;
     font-family: Aileron-Heavy, Arial, sans-serif;
 }
+.logo-name a{
+    color:#373833;
+    text-decoration: none;
+}
 .hero-home{
     height: 400px;
     background: url('gymRef.webp');
