@@ -272,6 +272,100 @@ footer hr{
     padding: 10px 0;
 }
 
+/*Info Page Style Sheet*/
+.directions{
+    /* border-style: solid;
+    border-color: #3E5879; */
+    width: 70%;
+    letter-spacing: 2px;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.policies{
+    border-style: solid;
+    border-color: #213555;
+    width: 70%;
+    letter-spacing: 1px;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+
+.contacts{
+    border-style: solid;
+    border-color: #213555;
+    width: 70%;
+    letter-spacing: 1px;
+    margin: auto;
+    margin-top: 5rem;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+
+.amenities{
+    border-style: solid;
+    border-color: #213555;
+    width: 70%;
+    letter-spacing: 1px;
+    margin: auto;
+    margin-top: 5rem;
+    line-height: 2rem;
+    margin-bottom: 5rem;
+}
+
+.container-info{
+    text-align: center;
+}
+
+.container-info ul{
+    list-style: none;
+    width: 90%;
+}
+
+.container-info li::before{
+    content: "•";
+    margin: 0 5px 0 0;
+}
+
+.container-info p, .container-info ul{
+    font-size: 1.2rem;
+}
+
+.am-p{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.arena > img{
+    width: 60%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.container-info div{
+ overflow-wrap: break-word;
+}
+
+
+/*For Mobile Phones*/
+@media only screen and (max-width: 768px) {
+    .container-info ul{
+       padding-left: 0;
+    }
+
+    .am-p{
+        padding: 0;
+    }
+  }
+
+
+
+
 /*Checkout Page style sheet*/
             .purchase{
                 display: grid;
