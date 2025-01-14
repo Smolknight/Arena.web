@@ -1,0 +1,98 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F5F5F5;
+    color: #213555;
+}
+
+.directions{
+    /* border-style: solid;
+    border-color: #3E5879; */
+    width: 70%;
+    letter-spacing: 2px;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.policies{
+    border-style: solid;
+    border-color: #213555;
+    width: 70%;
+    letter-spacing: 1px;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+
+.contacts{
+    border-style: solid;
+    border-color: #213555;
+    width: 70%;
+    letter-spacing: 1px;
+    margin: auto;
+    margin-top: 5rem;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+
+.amenities{
+    border-style: solid;
+    border-color: #213555;
+    width: 70%;
+    letter-spacing: 1px;
+    margin: auto;
+    margin-top: 5rem;
+    line-height: 2rem;
+    margin-bottom: 5rem;
+}
+
+.container-info{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    width: 90%;
+}
+
+li::before{
+    content: "•";
+    margin: 0 5px 0 0;
+}
+
+p, ul{
+    font-size: 1.2rem;
+}
+
+.am-p{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.arena > img{
+    width: 60%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+div{
+ overflow-wrap: break-word;
+}
+
+
+/*For Mobile Phones*/
+@media only screen and (max-width: 768px) {
+    ul{
+       padding-left: 0;
+    }
+
+    .am-p{
+        padding: 0;
+    }
+  }
+
+
