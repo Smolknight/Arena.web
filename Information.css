@@ -49,17 +49,17 @@ body{
     text-align: center;
 }
 
-ul{
+.container-info ul{
     list-style: none;
     width: 90%;
 }
 
-li::before{
+.container-info li::before{
     content: "•";
     margin: 0 5px 0 0;
 }
 
-p, ul{
+.container-info p, .container-info ul{
     font-size: 1.2rem;
 }
 
@@ -78,14 +78,14 @@ p, ul{
     border-radius: 1rem;
 }
 
-div{
+.container-info div{
  overflow-wrap: break-word;
 }
 
 
 /*For Mobile Phones*/
 @media only screen and (max-width: 768px) {
-    ul{
+    .container-info ul{
        padding-left: 0;
     }
 
