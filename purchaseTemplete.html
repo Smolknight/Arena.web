@@ -125,16 +125,12 @@
                 <form>    
                     <label for="eventSelect">Select an event</label>
                     <br>
-
                     <!--Event selection area starts here-->
-                    <!--javascript is at the bottom-->
-                    <select name="eventSelect" id="eventSelect" onchange="changePrice()" required>
+                    <select name="eventSelect" id="eventSelect" required>
                         <option value="rockAndStone">Rock and stone</option>
                         <option value="treeExpo">Tree Expo</option>
                     </select>
                     <!--Event selection area ends here-->
-
-
                     <br>
                     <br>
                     <div style="height: 2px; background-color: black; width: 100%;"></div>
@@ -203,26 +199,12 @@
                         <div style="height: 2px; background-color: black; width: 100%;"></div>
                         <br>
                         <div id="ticketPrice">
-                            <p style="font-size: 2rem;" id="priceDisplay">price:<span id="priceText"></span></p>
+                            <p style="font-size: 2rem;" id="priceDisplay">price:<span id="price"></span></p>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
 
-        <script>
-            var prText=document.getElementById('priceText')
-
-            function changePrice(){
-                var value= sectionSel.value
-                console.log(value)
-                switch(value){
-                    case '1A':
-                        prText.innerHTML='100'
-                        break;
-
-                }
-            }
-        </script>
     </body>
     </html>
