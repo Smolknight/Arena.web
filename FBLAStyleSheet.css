@@ -1,0 +1,273 @@
+/*Shared Style Sheet Between All Webpages*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+}
+@font-face{
+    font-family:Aileron-Regular;
+    src:url(aileron/Aileron-Regular.otf);
+}
+@font-face{
+    font-family:Aileron-Heavy;
+    src:url(aileron/Aileron-Heavy.otf);
+}
+
+/*Home Page Style Sheet*/
+.body-home{
+    background-color: #f5f5f5;
+    font-family: Aileron-Regular, Arial, sans-serif;
+    color: #373833;
+}
+.header-home{
+    font-family: Aileron-Regular, Arial, sans-serif;
+    background-color: #e3e4de;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.header-home ul{
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+}
+.header-home ul li{
+    padding: 10px;
+}
+.header-home li a{
+    color: #373833;
+    text-decoration: none;
+}
+.header-home a:hover{
+    transition: color 0.5s linear;
+    color: #69582b;
+}
+.header-home img{
+    width: 50px;
+    height: 50px;
+}
+.logo-name{
+    display: flex;
+    align-items: center;
+    font-family: Aileron-Heavy, Arial, sans-serif;
+}
+.hero-home{
+    height: 400px;
+    background: url('gymRef.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-home h1{
+    opacity: 50%;
+}
+.box-home img{
+    height:300px;
+    object-fit: cover;
+}
+.text-home{
+    text-align: center;
+    margin: 50px 0;
+}
+.text-home h1{
+    margin-bottom: 20px;
+}
+.boxes-home{
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.box-home{
+    background-color:white;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.box-home h3{
+    margin: 10px 0;
+}
+.box-home p{
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #e3e4de;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Aileron-Regular, Arial, sans-serif;
+}
+footer p{
+    margin-top: 8px;
+}
+footer hr{
+    margin: 10px 0;
+    border-top: 1px solid #bebebc;
+}
+.rights{
+    color: #aeaea5;
+}
+@media only screen and (max-width: 768px) {
+    .header-home{
+        flex-direction: column;
+    }
+    .main-container-calendar{
+        flex-direction: column;
+    }
+    .container-calendar{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        max-width: 500px;
+    }
+  }
+@media only screen and (max-width: 530px) {
+    .container-calendar{
+        max-width: 400px;
+        margin-left: -120px;
+    }
+  }
+@media only screen and (max-width: 425px) {
+    .header-home ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-calendar{
+        margin-left: -50px;
+    }
+    .calendar{
+        max-width: 350px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+    .day {
+        display: grid;
+        grid-template-columns: repeat(7, 50px) !important;
+    }
+    .date {
+        display: grid;
+        grid-template-columns: repeat(7, 50px) !important;
+    }
+  }
+@media only screen and (max-width: 280px) {
+    .logo-name{
+        font-size: 80%;
+    }
+  }
+
+/*Calendar Page Style Sheet*/
+.body-calendar {
+    background-color: #f5f5f5;
+    color: #373833;
+    margin: 0;
+}
+.main-container-calendar{
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+.container-calendar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-self: center;
+    width: 200%;
+}
+.calendar {
+    width: 450px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    margin: 50px;
+}
+.month {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.day {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: #007bff;
+    color: white;
+}
+.day div {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.date {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.date div {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.left-col{
+    border-left: none !important;
+}
+.right-col{
+    border-right: none !important;
+}
+.fas{
+    margin-right: 10px;
+}
+.date p:hover{
+    transition: background-color 0.3s linear;
+    background-color: rgb(226, 226, 226);
+    cursor: pointer;
+}
+.info{
+    font-family: Aileron-Regular, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 30px 50px;
+    background-color: #f0f0f0;
+}
+.info>h2{
+    margin-bottom: 10px;
+}
+.info>p{
+    margin: 10px 0;
+    font-size: 1.1rem;
+    padding-bottom: 30px;
+}
+.info a{
+    color: #007bff;
+}
+.info a:hover{
+    transition: color 0.3s linear;
+    color:blue;
+}
+.event{
+    background-color: #eceaea;
+}
+.event-month h3{
+    margin-top: 20px;
+}
+.event-month p{
+    padding: 10px 0;
+}
