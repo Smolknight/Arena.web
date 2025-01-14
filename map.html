@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="map.css">
+</head>
+
+<body>
+<div class="map-container">
+        <div>
+           <h1 class="box"> Arena Map </h1>
+        </div>
+    <div class="map-arena">
+    <img id="arena-image" src="Arena-img.PNG" alt="Workplace" usemap="#workmap">
+</div>
+
+<div>
+   <h2 class="box">Click To Purchase Tickets for Desired Seating Area. </h2> 
+   <h3>Additional Seating Information :</h3>
+   <p>1B, 1C, 1D, 2B, 2C & 2D Seat <b>250</b> Respectively.
+    <br>
+    1A & 2A Seat <b>1000</b> Respectively.
+   </p>
+</div>
+</div>
+<map name="workmap">
+
+<area shape="rect" coords="505,143,274,49" alt="Tickets for seating 1A" href="purchaseTemplete.html">
+
+<area shape="rect" coords="667,153,603,95" alt="Tickets for seating 1B" href="purchaseTemplete.html">
+
+<area shape="rect" coords="692,250,628,192" alt="Tickets for seating 1C" href="purchaseTemplete.html">
+
+<area shape="rect" coords="667,345,603,287" alt="Tickets for seating 1D" href="purchaseTemplete.html">
+
+<area shape="rect" coords="498,392,267,298" alt="Tickets for seating 2A" href="purchaseTemplete.html">
+
+<area shape="rect" coords="177,348,113,290" alt="Tickets for seating 2B" href="purchaseTemplete.html">
+
+<area shape="rect" coords="152,253,88,195" alt="Tickets for seating 2C" href="purchaseTemplete.html">
+
+<area shape="rect" coords="172,156,108,98" alt="Tickets for seating 2D" href="purchaseTemplete.html">
+<!--Map resize with breakpoints-->
+
+<script src="map-resize.js"></script>
+</body>
+</html>
+
+<!--1500, 250 per small seating areas
+ 2000 seats left, main areas seat 1000 each-->
