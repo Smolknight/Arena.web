@@ -44,6 +44,14 @@ body{
     border-radius: 2rem;
     background-color: white;
 }
+
+@media (max-width:500px){
+    #change{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
     </style>
 </head>
 <body class="noMarg">
@@ -76,7 +84,7 @@ body{
 
                 <div class="included"  style="border: 3px solid black; margin: 1rem; width: auto;">
                     <h1 style="text-align: center; font-size: 2.5rem;">Offered with the arena</h1>
-                    <div style="display: flex; justify-content: center; gap: 5rem;">
+                    <div id="change" style="display: flex; justify-content: center; gap: 5rem;">
                         <ul>
                             <h1>Comfort</h1>
                             <li>A/C</li>
