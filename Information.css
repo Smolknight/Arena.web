@@ -49,13 +49,13 @@
     margin: auto;
     margin-top: 5rem;
     line-height: 2rem;
-    margin-bottom: 5rem;
     background-color: white;
     border-radius: 2rem;
 }
 
 .container-info{
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .container-info ul{
@@ -90,8 +90,6 @@
 .container-info div{
  overflow-wrap: break-word;
 }
-
-
 
 /*For Mobile Phones*/
 @media only screen and (max-width: 768px) {
