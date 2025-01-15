@@ -110,6 +110,7 @@ footer{
     padding: 20px 0;
     text-align: center;
     font-family: Aileron-Regular, Arial, sans-serif;
+    width:100%;
 }
 footer p{
     margin-top: 8px;
@@ -170,111 +171,7 @@ footer hr{
     }
   }
 
-/* Calendar Page Style Sheet
-.body-calendar {
-    background-color: #f5f5f5;
-    color: #373833;
-    margin: 0;
-}
-.main-container-calendar{
-    font-family: Arial, sans-serif;
-    display: flex;
-}
-.container-calendar{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
-    align-self: center;
-    width: 200%;
-}
-.calendar {
-    width: 450px;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 50px;
-    margin: 50px;
-}
-.month {
-    text-align: center;
-    background-color: #007bff;
-    color: white;
-    padding: 10px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.day {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    background-color: #007bff;
-    color: white;
-}
-.day div {
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-}
-.date {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-}
-.date div {
-    padding: 20px;
-    text-align: center;
-    border-top: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-}
-.left-col{
-    border-left: none !important;
-}
-.right-col{
-    border-right: none !important;
-}
-.fas{
-    margin-right: 10px;
-}
-.date p:hover{
-    transition: background-color 0.3s linear;
-    background-color: rgb(226, 226, 226);
-    cursor: pointer;
-}
-.info{
-    font-family: Aileron-Regular, Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    text-align: center;
-    padding: 30px 50px;
-    background-color: #f0f0f0;
-}
-.info>h2{
-    margin-bottom: 10px;
-}
-.info>p{
-    margin: 10px 0;
-    font-size: 1.1rem;
-    padding-bottom: 30px;
-}
-.info a{
-    color: #007bff;
-}
-.info a:hover{
-    transition: color 0.3s linear;
-    color:blue;
-}
-.event{
-    background-color: #eceaea;
-}
-.event-month h3{
-    margin-top: 20px;
-}
-.event-month p{
-    padding: 10px 0;
-}
- */
+
 /*Info Page Style Sheet*/
 .directions{
     /* border-style: solid;
