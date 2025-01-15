@@ -11,6 +11,8 @@
     letter-spacing: 2px;
     margin: auto;
     margin-top: 5rem;
+    background-color: white;
+    border-radius: 2rem;
 }
 
 .policies{
@@ -20,6 +22,8 @@
     letter-spacing: 1px;
     margin: auto;
     margin-top: 5rem;
+    background-color: white;
+    border-radius: 2rem;
 }
 
 
@@ -33,6 +37,8 @@
     line-height: 2rem;
     padding-bottom: 1rem;
     margin-bottom: 2rem;
+    background-color: white;
+    border-radius: 2rem;
 }
 
 .amenities{
@@ -44,6 +50,8 @@
     margin-top: 5rem;
     line-height: 2rem;
     margin-bottom: 5rem;
+    background-color: white;
+    border-radius: 2rem;
 }
 
 .container-info{
@@ -82,6 +90,7 @@
 .container-info div{
  overflow-wrap: break-word;
 }
+
 
 
 /*For Mobile Phones*/
