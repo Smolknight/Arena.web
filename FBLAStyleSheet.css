@@ -5,6 +5,7 @@ body{
     background-color: #f5f5f5;
     font-family: Aileron-Regular, Arial, sans-serif;
     color: #373833;
+    oveflow-x:hidden;
 }
 @font-face{
     font-family:Aileron-Regular;
