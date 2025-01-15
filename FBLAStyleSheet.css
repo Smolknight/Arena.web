@@ -114,6 +114,8 @@ footer{
     text-align: center;
     font-family: Aileron-Regular, Arial, sans-serif;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 footer p{
     margin-top: 8px;
