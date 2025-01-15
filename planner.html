@@ -6,46 +6,20 @@
     <title>Document</title>
 
     <style>
-.header-home{
-    background-color: #e3e4de;
-    color: #373833;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
-.header-home ul{
-    display: flex;
-    list-style-type: none;
-    padding: 10px;
-}
-.header-home ul li{
-    padding: 10px;
-}
-.header-home li a{
-    color: #373833;
-    text-decoration: none;
-}
-.header-home img{
-    width: 50px;
-    height: 50px;
-}
-.logo-name{
-    display: flex;
-    align-items: center;
-}
-
-
+         *,::before,::after{
+            font-family: Aileron-Regular, Arial, sans-serif;
+        }
 
 .noMarg{
     margin: 0;
 }
 .textSizer{
-    font-size:50rem;
+    font-size:.5rem;
+}
+body{
+    background-color: #f5f5f5;
 }
         .planBody{
-            background-color: aquamarine;
-            height: 90vh;
             width: 100%;
 
             h1{
@@ -56,37 +30,27 @@
                 text-align: center;
             }
 
-            .rate{
-                text-align: center; font-size: 2.5rem;
+            .rate ul{
+                padding: 0;
             }
+        }
+        .included li{
+            list-style-type: none;
+            text-indent:2em;
+            font-size: 1.3rem;
         }
 
 
     </style>
 </head>
 <body class="noMarg">
-   <header class="header-home">
-            <div class="logo-name">
-                <img src="tumbleweed.png">
-                <h1><a href="index.html">Tumbleweed High School</a></h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="FBLACalendar.html">Our Calendar(Events)</a></li>
-                    <li><a href="map.html">Event Ticket Purchase</a></li>
-                    <li><a href="planner.html">Arena Rental</a></li>
-                    <li><a href="Information.html">Rental Information</a></li>
-                </ul>
-            </nav>
-        </header>
+
 
     <div class="planBody">
-        <h1 style="text-align: center; font-size: 3.5rem; padding-top: 1rem;">About our arena</h1>
-        <br>
-        <br>
-        <div class="useCases">
+        <h1 style="text-align: center; font-size: 3.5rem; padding-top: 1rem;">About Our Arena</h1>
+        <div class="useCases" >
             <div class="textSizer">
-                <p>Here in Tumbleweed HighSchool, Our arena has a seating capacity of 3,500 occupants.</p>
+                <p>Here in Tumbleweed High School, Our arena has a seating capacity of 3,500 occupants.</p>
                 <p>Making our Arena one of the best places in the valley to hold where high occupancy turn out is expected.</p>
                 <p>No need to worry about seating, our arena can accommodate all your seatings needs</p>
             </div>
@@ -94,10 +58,37 @@
 <br>
 <br>
 
-            <div class="rate">
-                    <h1 style="text-align: center; font-size: 2.5rem;">Our rate</h1>
-                    <p style="font-size: 1.5rem;">$6000, additional $300 every hour pass 8 hours</p>
+            <div class="rate" style="border: 3px solid black; margin: 1rem;" >
+                    <h1 style="text-align: center; font-size: 2.5rem;">Our Rates</h1>
+                <ul style="font-size: 2rem;">
+                    <p style="font-size: 1.5rem;"><span style="font-size: 2rem; font-weight: bold;">Sporting Events:</span> Inital Price: $3000, $150 per hour every additional hour after 8 hours, $500 per non-event day</p>
+                    <p>(includes equipment such as mats and floor covers, tables, and chairs)</p>
+                    <br>
+                    <p style="font-size: 1.5rem;"><span style="font-size: 2rem; font-weight: bold;">Stage Events:</span> Initial Price: $5000, $300 per hour every additional hour after 8 hours, $1000 per non-event day</p>
+                    <p>(includes stage set-up, sound system set-up, and lighting set-up)</p>
+                    <br>
+                    <p style="font-size: 1.5rem;"><span style="font-size: 2rem; font-weight: bold;">Business Usage:</span> Initial Price: $500, $50 per hour every additional hour after 5 hours, $40 per non-event day</p>
+                </ul>
             </div>
+
+                <div class="included"  style="border: 3px solid black; margin: 1rem; width: auto;">
+                    <h1 style="text-align: center; font-size: 2.5rem;">Offered with the arena</h1>
+                    <div style="display: flex; justify-content: center; gap: 5rem;">
+                        <ul>
+                            <h1>Comfort</h1>
+                            <li>A/C</li>
+                            <li>Heat</li>
+                    </ul>
+
+                    <ul>
+                        <h1>General</h1>
+                        <li>PA system</li>
+                        <li>Restrooms</li>
+                        <li>Parking</li>
+                    </ul>
+                    </div>
+                </div>
+
         </div>
     </div>
 </body>
