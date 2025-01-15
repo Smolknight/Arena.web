@@ -1,6 +1,11 @@
 body{
     background-color: #f5f5f5;
 }
+.header-home *{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
 
 .map-arena > img{
     display: block;
