@@ -14,15 +14,11 @@ body{
 }
 
 .box{
-    border-style: solid;
-    border-color: #213555;
     width: 60%;
     letter-spacing: 1px;
     margin: auto;
     margin-top: 4rem;
     line-height: 2rem;
-    background-color: white;
-    border-radius: .5rem;
 }
 
 @media only screen and (max-width: 768px) {
