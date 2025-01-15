@@ -28,6 +28,8 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    width: 100%;
+    color: #373833;
 }
 .header-home ul{
     display: flex;
